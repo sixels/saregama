@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "saregama-ytmusic"
+version = "0.1.0"
+description = "Youtube Music wrapper service"
+authors = ["Sixels <sixels@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.2"
+ytmusicapi = "^1.5.2"
+uvicorn = "^0.27.0.post1"
+grpcio = "^1.60.1"
+grpcio-tools = "^1.60.1"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.2.1"
+
+[tool.poetry.scripts]
+dev = "saregama_ytmusic.scripts:dev_server"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

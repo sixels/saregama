@@ -1,0 +1,51 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "poetry@latest": {
+      "last_modified": "2024-01-30T04:45:19Z",
+      "plugin_version": "0.0.4",
+      "resolved": "github:NixOS/nixpkgs/222c1940fafeda4dea161858ffe6ebfc853d3db5#poetry",
+      "source": "devbox-search",
+      "version": "1.7.1",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/j6b74g49f64qngvvs8ds32imad5yd44b-python3.11-poetry-1.7.1"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/fx71cnj77cqc62ws1b2h4jcvkbqfdh4y-python3.11-poetry-1.7.1"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/05yzp68x4ynli7v4k1n3d4ch1rsf9lmd-python3.11-poetry-1.7.1"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/mlx3qmf9qs7a11gnvikbrqx8rlyqnnqc-python3.11-poetry-1.7.1"
+        }
+      }
+    },
+    "python3@latest": {
+      "last_modified": "2024-01-27T14:55:31Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/160b762eda6d139ac10ae081f8f78d640dd523eb#python3",
+      "source": "devbox-search",
+      "version": "3.11.7",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/03q8gn91mj95y5bqbcl90hyvmpqpz738-python3-3.11.7"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/dz8lm4h0ivibad5kfc0ya3p3zqyd2fyf-python3-3.11.7"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/byyb569c90slwsjr43ikhhwlhfavhiir-python3-3.11.7"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/w4fvvhkzb0ssv0fw5j34pw09f0qw84w8-python3-3.11.7"
+        }
+      }
+    },
+    "stdenv.cc.cc.lib": {
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#stdenv.cc.cc.lib",
+      "source": "nixpkg"
+    }
+  }
+}

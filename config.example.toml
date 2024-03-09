@@ -1,0 +1,8 @@
+[app]
+port = 3000
+# 64-byte random cookie signature key
+cookie_secret = ""
+
+[spotify]
+client_id = ""
+client_secret = ""
